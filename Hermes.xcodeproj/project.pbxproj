@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3298E5C2869D16400E5F738 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3298E5B2869D16400E5F738 /* MainScreen.swift */; };
+		E3298E5E2869D17400E5F738 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3298E5D2869D17400E5F738 /* SecondScreen.swift */; };
+		E3298E602869D23A00E5F738 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3298E5F2869D23A00E5F738 /* UserSettings.swift */; };
 		E350C71728694C0400CBC2F7 /* HermesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E350C71628694C0400CBC2F7 /* HermesApp.swift */; };
-		E350C71928694C0400CBC2F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E350C71828694C0400CBC2F7 /* ContentView.swift */; };
 		E350C71B28694C0500CBC2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E350C71A28694C0500CBC2F7 /* Assets.xcassets */; };
 		E350C71E28694C0500CBC2F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E350C71D28694C0500CBC2F7 /* Preview Assets.xcassets */; };
+		E350C72828694CC400CBC2F7 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E350C72728694CC400CBC2F7 /* HomeScreen.swift */; };
+		E350C72C28694D5F00CBC2F7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E350C72E28694D5F00CBC2F7 /* Localizable.strings */; };
+		E350C7322869558B00CBC2F7 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = E350C7312869558B00CBC2F7 /* Language.swift */; };
+		E38F4D7D28767A1500F8DF52 /* MainScreen_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38F4D7C28767A1500F8DF52 /* MainScreen_II.swift */; };
+		E38F4D7F28767A1F00F8DF52 /* SecondScreen_II.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38F4D7E28767A1F00F8DF52 /* SecondScreen_II.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3298E5B2869D16400E5F738 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		E3298E5D2869D17400E5F738 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		E3298E5F2869D23A00E5F738 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		E350C71328694C0400CBC2F7 /* Hermes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hermes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E350C71628694C0400CBC2F7 /* HermesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesApp.swift; sourceTree = "<group>"; };
-		E350C71828694C0400CBC2F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E350C71A28694C0500CBC2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E350C71D28694C0500CBC2F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E350C72728694CC400CBC2F7 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E350C72D28694D5F00CBC2F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E350C72F28694DA900CBC2F7 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E350C73028694DCB00CBC2F7 /* uz */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uz; path = uz.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E350C7312869558B00CBC2F7 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		E350C73428695CBF00CBC2F7 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E350C7352869678200CBC2F7 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E350C7362869678E00CBC2F7 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E38F4D7C28767A1500F8DF52 /* MainScreen_II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen_II.swift; sourceTree = "<group>"; };
+		E38F4D7E28767A1F00F8DF52 /* SecondScreen_II.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScreen_II.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +70,10 @@
 		E350C71528694C0400CBC2F7 /* Hermes */ = {
 			isa = PBXGroup;
 			children = (
-				E350C71628694C0400CBC2F7 /* HermesApp.swift */,
-				E350C71828694C0400CBC2F7 /* ContentView.swift */,
-				E350C71A28694C0500CBC2F7 /* Assets.xcassets */,
+				E350C72928694CE500CBC2F7 /* Controller */,
+				E350C72428694C4200CBC2F7 /* Screen */,
 				E350C71C28694C0500CBC2F7 /* Preview Content */,
+				E350C72E28694D5F00CBC2F7 /* Localizable.strings */,
 			);
 			path = Hermes;
 			sourceTree = "<group>";
@@ -65,6 +84,53 @@
 				E350C71D28694C0500CBC2F7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E350C72428694C4200CBC2F7 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				E38F4D7A287679A800F8DF52 /* Task_I */,
+				E38F4D7B287679B900F8DF52 /* Task_II */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		E350C72928694CE500CBC2F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E38F4D79287613A500F8DF52 /* Old */,
+				E350C71628694C0400CBC2F7 /* HermesApp.swift */,
+				E3298E5F2869D23A00E5F738 /* UserSettings.swift */,
+				E350C71A28694C0500CBC2F7 /* Assets.xcassets */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E38F4D79287613A500F8DF52 /* Old */ = {
+			isa = PBXGroup;
+			children = (
+				E350C7312869558B00CBC2F7 /* Language.swift */,
+				E350C72728694CC400CBC2F7 /* HomeScreen.swift */,
+			);
+			path = Old;
+			sourceTree = "<group>";
+		};
+		E38F4D7A287679A800F8DF52 /* Task_I */ = {
+			isa = PBXGroup;
+			children = (
+				E3298E5B2869D16400E5F738 /* MainScreen.swift */,
+				E3298E5D2869D17400E5F738 /* SecondScreen.swift */,
+			);
+			path = Task_I;
+			sourceTree = "<group>";
+		};
+		E38F4D7B287679B900F8DF52 /* Task_II */ = {
+			isa = PBXGroup;
+			children = (
+				E38F4D7C28767A1500F8DF52 /* MainScreen_II.swift */,
+				E38F4D7E28767A1F00F8DF52 /* SecondScreen_II.swift */,
+			);
+			path = Task_II;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +175,12 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				uz,
+				fr,
+				nl,
+				"zh-HK",
+				ko,
 			);
 			mainGroup = E350C70A28694C0400CBC2F7;
 			productRefGroup = E350C71428694C0400CBC2F7 /* Products */;
@@ -126,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E350C71E28694C0500CBC2F7 /* Preview Assets.xcassets in Resources */,
+				E350C72C28694D5F00CBC2F7 /* Localizable.strings in Resources */,
 				E350C71B28694C0500CBC2F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,18 +210,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E350C71928694C0400CBC2F7 /* ContentView.swift in Sources */,
+				E3298E5C2869D16400E5F738 /* MainScreen.swift in Sources */,
+				E3298E602869D23A00E5F738 /* UserSettings.swift in Sources */,
+				E350C7322869558B00CBC2F7 /* Language.swift in Sources */,
+				E350C72828694CC400CBC2F7 /* HomeScreen.swift in Sources */,
 				E350C71728694C0400CBC2F7 /* HermesApp.swift in Sources */,
+				E38F4D7F28767A1F00F8DF52 /* SecondScreen_II.swift in Sources */,
+				E38F4D7D28767A1500F8DF52 /* MainScreen_II.swift in Sources */,
+				E3298E5E2869D17400E5F738 /* SecondScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E350C72E28694D5F00CBC2F7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E350C72D28694D5F00CBC2F7 /* en */,
+				E350C72F28694DA900CBC2F7 /* ru */,
+				E350C73028694DCB00CBC2F7 /* uz */,
+				E350C73428695CBF00CBC2F7 /* nl */,
+				E350C7352869678200CBC2F7 /* zh-HK */,
+				E350C7362869678E00CBC2F7 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E350C71F28694C0500CBC2F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -209,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
