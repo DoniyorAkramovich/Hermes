@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct SecondScreen_II: View {
-    
     @EnvironmentObject var settings: UserSettings
     
     var body: some View {

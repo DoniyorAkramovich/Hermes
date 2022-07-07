@@ -11,7 +11,7 @@ import SwiftUI
 struct HermesApp: App {
     var body: some Scene {
         WindowGroup {
-            MainScreen_II()
+            MainScreen_II().environmentObject(UserSettings())
         }
     }
 }

@@ -8,20 +8,19 @@
 import SwiftUI
 
 struct MainScreen_II: View {
-    
-    @EnvironmentObject var setting: UserSettings
+    @EnvironmentObject var settings: UserSettings
     
     var body: some View {
         NavigationView {
             VStack {
-                TextField("Enter ID", text: $setting.id)
+                TextField("Enter ID", text: $settings.id)
                     .padding()
                     .frame(height: 45)
                     .foregroundColor(.black)
                     .background(Color.gray .opacity(0.1))
                     .cornerRadius(10)
                 
-                SecureField("Enter Password", text: $setting.password)
+                SecureField("Enter Password", text: $settings.password)
                     .padding()
                     .frame(height: 45)
                     .foregroundColor(.black)
